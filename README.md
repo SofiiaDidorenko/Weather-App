@@ -27,29 +27,63 @@ ___
 Download project
 
 1. Склонувати з Git Hub репозиторію
-    - опис та зображення (або gif анімація)
+    - git clone:
+      1. Отримаємо посилання від нашого репозіторія
+      2. Клонуємо проект
+      3. В терміналі пишемо git clone [посилання]
 
 2. Завантажити за допомогою zip-архіву
-    - опис та зображення (або gif анімація)
+    - download zip
 ___
 <h4 id= 'create-venv'>Створення віртуального оточення проєкту:</h4>
-Сreate venv
+Create venv
 
 1. Windows
-    - опис та зображення (або gif анімація)
+    - python -m venv venv
+
+    - open command prompt terminal (cmd)
+
+    - venv\scripts\activate.bat
+
+    - pip install -r requirements.txt
 
 2. Mac OS або Linux
-    - опис та зображення (або gif анімація)
+    - cd WeatherApp
+
+    - python3 -m venv venv
+
+    - open git-bash terminal
+
+    - source venv/bin/activate
+
+    - pip3 install -r requirements.txt
 ___
 <h4 id= 'download-modules-venv'>Завантаження модулів до віртуального оточення:</h4>
 Download modules venv
 
 1. Окремими модулями
-    - опис та зображення (або gif анімація)
+    - pip install customtkinter
+
+    - pip install json
+        
+    - pip install colorama
+        
+    - pip install os
+        
+    - pip install requests
+        
+    - pip install pillow
+        
+    - pip install datetime
+                                                
 2. За допомогою файлу requirements.txt
-    - опис та зображення (або gif анімація)
+    - pip install -r requirements.txt
 ___
 <h4 id= 'start-project'>Старт проєкту:</h4>
 Start project
+
+1. Запускаємо проект (всі модулі мають бути завантажиними)
+2. Заповнити всі данні
+3. Готово!
 
 
