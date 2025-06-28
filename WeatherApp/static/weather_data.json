@@ -8,7 +8,7 @@
             "id": 500,
             "main": "Rain",
             "description": "легкий дощ",
-            "icon": "10d"
+            "icon": "10n"
         }
     ],
     "base": "stations",
@@ -29,12 +29,12 @@
         "gust": 6.81
     },
     "rain": {
-        "1h": 0.23
+        "1h": 0.27
     },
     "clouds": {
         "all": 100
     },
-    "dt": 1750786888,
+    "dt": 1750787585,
     "sys": {
         "country": "UA",
         "sunrise": 1750729149,
